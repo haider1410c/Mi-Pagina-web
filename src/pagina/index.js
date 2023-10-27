@@ -1,9 +1,6 @@
+import Typed from 'typed.js';
 
+const typed = new Typed('.typed', {
+    String: ['Hola, soy desarrollador web']
+});
 
-const animación =  document.getElementById('Desarrollador')
-
-function textAnimado() {
-    let texto = ['Desarrollador', 'Front-End'];
-
-
-}
