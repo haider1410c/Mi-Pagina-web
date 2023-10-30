@@ -1,19 +1,33 @@
-import Typed from 'typed.js';
+var animation = ['Desarrollador Web', "Haider Cardenal", 'Programador Front-End' ],
+    textAnimado = document.getElementById('Desarrollador'),
+    textAnimadoContent = textAnimado.innerHTML,
+    agregarText = false,
+    counter = 1;
 
-const typed = new Typed('.typed', {
-    String: ['Hola, soy desarrollador web'],
+setInterval(function(){
 
+  if(textAnimadoContent.length > 0 && !agregarText ) {
+    textAnimado.innerHTML = textAnimadoContent.slice(0, -1);
+    textAnimadoContent = textAnimado.innerHTML;
+  } else{
+    agregarText = true;
+  }
 
-    typeSpeed: 75,
-    startDelay: 300,
-    backSpeed: 75,
-    backDelay: 1000,
-    loop: true,
-    loopCount: false,
-    showCursor: true,
-    cursorChar: '|',
-    attr: null,
-    contentType: 'html',
+  if( agregarText ){
+    if( textAnimadoContent.length < animation[counter].length  ) {
+      textAnimado.innerHTML = animation[counter].slice(0, textAnimadoContent.length + 1);
+      textAnimadoContent = textAnimado.innerHTML;
+    } else {
+      if( counter < animation.length) {
+        counter ++
+      }
+      agregarText = false;
+    }
+  }
 
-});
+  if( counter == animation.length) {
+    counter = 0;
+  }
+
+},180);
 
