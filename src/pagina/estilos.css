@@ -638,6 +638,14 @@ html {
   padding: 2.5rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
+.p-7 {
+  padding: 1.75rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -751,6 +759,14 @@ html {
     width: 18rem;
   }
 
+  .max-md\:w-10 {
+    width: 2.5rem;
+  }
+
+  .max-md\:w-12 {
+    width: 3rem;
+  }
+
   .max-md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -769,8 +785,36 @@ html {
     margin-top: 1rem;
   }
 
+  .max-sm\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .max-sm\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .max-sm\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
+  .max-sm\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
   .max-sm\:w-96 {
     width: 24rem;
+  }
+
+  .max-sm\:w-10 {
+    width: 2.5rem;
+  }
+
+  .max-sm\:w-12 {
+    width: 3rem;
+  }
+
+  .max-sm\:text-base2 {
+    font-size: 1.1rem;
   }
 
   .max-sm\:text-lg {
@@ -779,10 +823,6 @@ html {
 
   .max-sm\:text-sm {
     font-size: .875rem;
-  }
-
-  .max-sm\:text-base2 {
-    font-size: 1.1rem;
   }
 }
 
