@@ -560,10 +560,6 @@ html {
   margin-left: 2.5rem;
 }
 
-.ml-auto {
-  margin-left: auto;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -589,10 +585,6 @@ html {
 }
 
 .w-1\/2 {
-  width: 50%;
-}
-
-.w-2\/4 {
   width: 50%;
 }
 
@@ -679,22 +671,18 @@ html {
 
 .text-2xl {
   font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-4xl {
   font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-lg {
   font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-xl {
   font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-white {
@@ -781,14 +769,20 @@ html {
     margin-top: 1rem;
   }
 
+  .max-sm\:w-96 {
+    width: 24rem;
+  }
+
   .max-sm\:text-lg {
     font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .max-sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: .875rem;
+  }
+
+  .max-sm\:text-base2 {
+    font-size: 1.1rem;
   }
 }
 
