@@ -634,16 +634,8 @@ html {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-8 {
   padding: 2rem;
-}
-
-.p-7 {
-  padding: 1.75rem;
 }
 
 .px-3 {
@@ -743,8 +735,8 @@ html {
     display: grid;
   }
 
-  .max-md\:w-14 {
-    width: 3.5rem;
+  .max-md\:w-12 {
+    width: 3rem;
   }
 
   .max-md\:w-16 {
@@ -757,14 +749,6 @@ html {
 
   .max-md\:w-72 {
     width: 18rem;
-  }
-
-  .max-md\:w-10 {
-    width: 2.5rem;
-  }
-
-  .max-md\:w-12 {
-    width: 3rem;
   }
 
   .max-md\:grid-cols-2 {
@@ -781,32 +765,12 @@ html {
 }
 
 @media not all and (min-width: 640px) {
-  .max-sm\:mt-4 {
-    margin-top: 1rem;
-  }
-
-  .max-sm\:mt-5 {
-    margin-top: 1.25rem;
-  }
-
-  .max-sm\:mb-6 {
-    margin-bottom: 1.5rem;
-  }
-
-  .max-sm\:mb-5 {
-    margin-bottom: 1.25rem;
-  }
-
   .max-sm\:mb-4 {
     margin-bottom: 1rem;
   }
 
-  .max-sm\:w-96 {
-    width: 24rem;
-  }
-
-  .max-sm\:w-10 {
-    width: 2.5rem;
+  .max-sm\:mt-4 {
+    margin-top: 1rem;
   }
 
   .max-sm\:w-12 {
