@@ -27,6 +27,7 @@ module.exports = {
       '4xl': '2.25rem',   // 36px
     },
 
+
     extend: {
 
     height: {
