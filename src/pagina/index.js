@@ -1,8 +1,8 @@
-var animation = ['Desarrollador Web', "Haider Cardenal", 'Programador Front-End' ],
+var animation = ["Haider Cardenal",'Desarrollador Web',  'Programador Front-End' ],
     textAnimado = document.getElementById('Desarrollador'),
     textAnimadoContent = textAnimado.innerHTML,
     agregarText = false,
-    counter = 1;
+    counter = 0;
 
 setInterval(function(){
 
@@ -24,7 +24,7 @@ setInterval(function(){
       agregarText = false;
     }
   }
-
+0
   if( counter == animation.length) {
     counter = 0;
   }
