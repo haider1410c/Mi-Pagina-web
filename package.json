@@ -4,8 +4,6 @@
   "main": "tailwind.config.js",
   "scripts": {
     "buildTailwindcss": "npx tailwindcss -i ./src/style.css -o ./src/pagina/estilos.css --watch"
-    "publishConfig": {
-  "registry": "https://npm.pkg.github.com"
   },
   "author": "",
   "license": "ISC",
