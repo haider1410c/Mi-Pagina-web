@@ -24,7 +24,7 @@ setInterval(function(){
       agregarText = false;
     }
   }
-0
+
   if( counter == animation.length) {
     counter = 0;
   }
